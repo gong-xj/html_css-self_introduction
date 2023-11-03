@@ -51,7 +51,7 @@ h2 {
   margin: 0px;
 }
 
-.section-body p {
+#career .section-body p {
   font-weight: bold;
 }
 
@@ -67,9 +67,15 @@ h2 {
 .photos {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  
   flex-wrap: wrap;
   margin: 10px 0;
   gap: 10px;
+}
+
+.img-box {
+  width: 200px;
 }
 
 #interests img, #snake-img {
@@ -80,8 +86,6 @@ h2 {
 
 #snake-img {
   background: #283618;
-  width: 200px;
-  height: 200px;
 }
 
 #snake-img:hover {
@@ -90,7 +94,13 @@ h2 {
 }
 
 .img-description {
+  font-size: 16px;
+  margin: 0;
+  font-weight: light;
+}
+
+.bold-img-description {
   font-size: 13px;
-  margin-top: 0;
   font-weight: bold;
+  margin: 0;
 }
