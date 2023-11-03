@@ -1,3 +1,96 @@
-h1 {
-  color: red;
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #606c38;
+  gap: 10px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.header, .section {
+  width: 65%;
+  min-width: 500px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header img {
+  border-radius: 100px;
+}
+
+.header {
+  background: #fefae0;
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  object-fit: cover;
+}
+
+#selfie {
+  width: auto;
+  max-width: 250px;
+  max-height: 300px;
+  border: 5px solid #606c38;
+}
+
+#greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#career {
+  background: #dda15e;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.section-body p {
+  font-weight: bold;
+}
+
+#interests {
+  background: #bc6c25;
+}
+
+#interests .section-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+#interests img, #snake-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#snake-img {
+  background: #283618;
+  width: 200px;
+  height: 200px;
+}
+
+#snake-img:hover {
+  background-image: url("images/snake.jpg");
+  background-size: cover;
+}
+
+.img-description {
+  font-size: 13px;
+  margin-top: 0;
+  font-weight: bold;
 }
