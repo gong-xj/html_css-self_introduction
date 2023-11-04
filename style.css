@@ -15,33 +15,38 @@ body {
   border-radius: 5px;
 }
 
-.header img {
-  border-radius: 100px;
-}
-
 .header {
   background: #fefae0;
   display: flex;
-  gap: 30px;
+  gap: 5%;
 }
 
 img {
   object-fit: cover;
 }
 
+.header img {
+  border-radius: 120px;
+}
 #selfie {
   width: auto;
   margin-left: auto;
-  max-width: 250px;
-  max-height: 300px;
-  border: 5px solid #606c38;
+  height: 300px;
+  border: 6px solid #606c38;
 }
 
 #greeting {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin-right: auto;
+}
+
+#sns-urls img {
+  width: 30px;
+}
+#sns-urls img:hover {
+  width: 35px;
 }
 
 #career {
@@ -59,7 +64,7 @@ h2 {
   width: fit-content;
 }
 
-#interests {
+#hobbies {
   background: #bc6c25;
 }
 
@@ -82,10 +87,11 @@ h2 {
   width: 200px;
 }
 
-#interests img, #snake-img {
+#hobbies img, #snake-img {
   width: 200px;
   height: 200px;
-  border-radius: 10px;
+  border: 4px solid #606c38;
+  border-radius: 50%;
 }
 
 #snake-img {
