@@ -23,16 +23,23 @@ body {
 
 img {
   object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+img:hover {
+  transform: scale(1.1);
 }
 
-.header img {
-  border-radius: 120px;
-}
-#selfie {
-  width: auto;
+#selfie-box {
+  max-width: 300px;
   margin-left: auto;
   height: 300px;
   border: 6px solid #606c38;
+  border-radius: 120px;
+  overflow: hidden;
+}
+#selfie:hover {
+  transform: scale(1.2);
 }
 
 #greeting {
@@ -42,11 +49,16 @@ img {
   margin-right: auto;
 }
 
-#sns-urls img {
+#github {
   width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-image: url("images/github.png");
+  border-radius: 50%;
 }
-#sns-urls img:hover {
-  width: 35px;
+#github:hover {
+  background-image: url("images/github-hover.png");
+  transform: scale(1.5);
 }
 
 #career {
@@ -80,7 +92,7 @@ h2 {
 
   flex-wrap: wrap;
   margin: 10px 0;
-  gap: 10px;
+  gap: 20px;
 }
 
 .img-box {
@@ -97,10 +109,10 @@ h2 {
 #snake-img {
   background: #283618;
 }
-
 #snake-img:hover {
   background-image: url("images/snake.jpg");
   background-size: cover;
+  transform: scale(1.1);
 }
 
 .img-description {
