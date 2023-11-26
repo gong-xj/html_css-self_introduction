@@ -13,15 +13,22 @@
       <div id="selfie-box">
         <img id="selfie" src="images/me.JPG">
       </div>
-      <div id="greeting">
+      <div id="greeting-sns">
         <div id="greeting-text">
           <h1>Hi ! I'm Gong 😆</h1>
           <h2>a software engineer in Tokyo</h2>
         </div>
-        <div id="sns-urls">
-          <a href="https://github.com/gong-xj" target="_blank">
-            <div id="github"></div>
-          </a>
+        <div id="sns-and-msg">
+          <span id="sns-urls">
+            <a href="https://github.com/gong-xj" target="_blank">
+              <div id="github"></div>
+            </a>
+          </span>
+          <span id="msg">
+            <input type="text" id="msg-box" placeholder="leave me a message">
+            <input type="button" id="msg-btn" value="Submit">
+            <ul id="msgs"></ul>
+          </span>
         </div>
       </div>
     </div>
@@ -81,5 +88,6 @@
         </nl>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

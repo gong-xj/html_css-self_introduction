@@ -45,14 +45,13 @@ img:hover {
   transform: scale(1.2);
 }
 
-#greeting {
+#greeting-sns {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-right: auto;
   padding: 30px 0 45px 0;
 }
-
 
 #github {
   width: 30px;
@@ -64,6 +63,10 @@ img:hover {
 #github:hover {
   background-image: url("images/github-hover.png");
   transform: scale(1.5);
+}
+
+#sns-and-msg {
+  
 }
 
 #career {
